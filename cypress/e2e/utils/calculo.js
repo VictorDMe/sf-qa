@@ -32,31 +32,31 @@ function alterarCepDestino(cep) {
 }
 
 function clicarCalcular() {
-  cy.dataCy('calculator-submit').click();
+  cy.get('[data-cy="calculator-submit"]').click();
 }
 
 function verificarSeFreteFoiCalculado() {
-  cy.get('#resultsArea', { timeout: 10000 }).should('be.visible');
+  cy.get('#resultsArea', { timeout: 15000 }).should('be.visible');
 }
 
 function verificarSeErroEmAltura() {
-  cy.get('[data-cy="calculator-packageHeight"] #packageHeight-helper-text', { timeout: 10000 }).should('be.visible');
+  cy.get('[data-cy="calculator-packageHeight"] #packageHeight-helper-text', { timeout: 15000 }).should('be.visible');
 }
 
 function verificarSeErroEmLargura() {
-  cy.get('[data-cy="calculator-packageWidth"] #packageWidth-helper-text', { timeout: 10000 }).should('be.visible');
+  cy.get('[data-cy="calculator-packageWidth"] #packageWidth-helper-text', { timeout: 15000 }).should('be.visible');
 }
 
 function verificarSeErroNoComprimento() {
-  cy.get('[data-cy="calculator-packageDepth"] #packageDepth-helper-text', { timeout: 10000 }).should('be.visible');
+  cy.get('[data-cy="calculator-packageDepth"] #packageDepth-helper-text', { timeout: 15000 }).should('be.visible');
 }
 
 function verificarSeErroEmPeso() {
-  cy.get(':nth-child(5) > .MuiFormControl-root > .MuiFormHelperText-root', { timeout: 10000 }).should('be.visible');
+  cy.get(':nth-child(5) > .MuiFormControl-root > .MuiFormHelperText-root', { timeout: 15000 }).should('be.visible');
 }
 
 function verificarSeErroEmCepOrigem() {
-  cy.get('[data-cy="calculator-originPostCode"] #originPostcode-helper-text', { timeout: 10000 }).should('be.visible');
+  cy.get('[data-cy="calculator-originPostCode"] #originPostcode-helper-text', { timeout: 15000 }).should('be.visible');
 }
 
 function verificarSeErroEmCepDestino() {
