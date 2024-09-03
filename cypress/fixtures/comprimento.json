@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Limite inferior inválido",
+    "valor": "12"
+  },
+  {
+    "nome": "Limite superior inválido",
+    "valor": "151"
+  },
+  {
+    "nome": "Valor negativo",
+    "valor": -5
+  },
+  {
+    "nome": "Zero",
+    "valor": 0
+  },
+  {
+    "nome": "NULL",
+    "valor": "null"
+  },
+  {
+    "nome": "undefined",
+    "valor": "undefined"
+  }
+]
