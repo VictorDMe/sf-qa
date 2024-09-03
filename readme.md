@@ -61,7 +61,7 @@ Este projeto tem como objetivo garantir a funcionalidade e a precisão da tela d
 
 ### CT08: Cálculo de Frete com Dados de Limite Exato
 
-**Descrição**: Verifica se o cálculo de frete é realizado corretamente quando os valores máximos e mínimos válidos são inseridos para altura, largura, comprimento e peso.
+**Descrição**: Verifica se o cálculo de frete é realizado corretamente quando os valores máximos e mínimos válidos são inseridos para altura, largura e comprimento.
 
 - **Dado**: Que estou na página de cálculo de frete.
 - **Quando**: Inserir os valores máximos e mínimos válidos permitidos.
