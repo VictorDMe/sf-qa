@@ -106,7 +106,7 @@ Para garantir que os testes sejam executados corretamente, siga os passos abaixo
    Primeiramente é necessário fazer o clone do repostório.
 
    ```bash
-   git clone #TODO
+   git clone https://github.com/VictorDMe/sf-qa
    ```
 
 2. **Instale as Dependências**:
